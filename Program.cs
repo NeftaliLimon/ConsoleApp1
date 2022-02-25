@@ -11,14 +11,14 @@ namespace ConsoleApp1
          static void Main(string[] args)
         {
             
-           /* ArrList team1 = new ArrList();
+            ArrList team1 = new ArrList();
             ArrList team2 = new ArrList();
             ArrList team3 = new ArrList();
-            */
-            LList team1 = new LList();
+            
+           /* LList team1 = new LList();
             LList team2 = new LList();
             LList team3 = new LList();
-
+            */
             team1.addAtTail("Jesús");
             team1.addAtTail("Salomón");
             team1.addAtTail("Yael");
@@ -28,8 +28,8 @@ namespace ConsoleApp1
             team2.addAtFront("Diego");
             team3.addAtFront("Imelda");
 
-            LinkedListIterator iterator;
-            //ArrayListIterator iterator;
+            //LinkedListIterator iterator;
+            ArrayListIterator iterator;
             iterator = team1.getIterator();
 
             while (iterator.hasNext())
