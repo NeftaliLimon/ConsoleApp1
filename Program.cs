@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-//namespace ConsoleApp1.uaslp.objetos.list.arraylist.ArrList
-namespace ConsoleApp1.uaslp.objetos.list.linkedlist.LList
+namespace ConsoleApp1
 {
     class Program
     {
